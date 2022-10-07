@@ -2,7 +2,7 @@
 
 ## Instalação e configuração:
 
-Instalar na máquina as seguintes ferramentas:
+Instalar na máquina as seguintes ferramentas:</br>
 [Docker](https://www.docker.com/products/docker-desktop) </br>
 [Git](https://git-scm.com/downloads) </br>
 
