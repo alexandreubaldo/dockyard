@@ -3,8 +3,8 @@
 ## Instalação e configuração:
 
 Instalar na máquina as seguintes ferramentas:
-[Docker](https://www.docker.com/products/docker-desktop) 
-[Git](https://git-scm.com/downloads)
+[Docker](https://www.docker.com/products/docker-desktop) </br>
+[Git](https://git-scm.com/downloads) </br>
 
 Após clonar o projeto, acesse o diretório e digite os seguintes comandos:
 
