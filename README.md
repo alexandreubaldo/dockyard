@@ -18,8 +18,8 @@ docker exec -i -u root dockyard php artisan migrate
 ```
 
 Após isso, o ambiente estará pronto para uso sendo:
-1.  Aplicação Web - http://localhost
-2.  Admin Web Mysql - http://localhost:81
+1.  Aplicação Web - http://localhost:8080
+2.  Admin Web Mysql - http://localhost:8081
 
 
 ## Regras gerais:
