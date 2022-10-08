@@ -1,5 +1,27 @@
 # Api para controle de pátios e containers
 
+## Instalação e configuração:
+
+Instalar na máquina as seguintes ferramentas:</br>
+[Docker](https://www.docker.com/products/docker-desktop) </br>
+[Git](https://git-scm.com/downloads) </br>
+
+Após clonar o projeto, acesse o diretório e digite os seguintes comandos:
+
+```
+docker-compose up -d --build
+docker exec -i -u root dockyard chmod 777 -R storage
+docker exec -i -u root dockyard php -r "file_exists('.env') || copy('.env.example', '.env');"
+docker exec -i -u root dockyard composer install
+docker exec -i -u root dockyard php artisan key:generate
+docker exec -i -u root dockyard php artisan migrate
+```
+
+Após isso, o ambiente estará pronto para uso sendo:
+1.  Aplicação Web - http://localhost:8080
+2.  Admin Web Mysql - http://localhost:8081
+
+
 ## Regras gerais:
 
 Essa aplicação deve usar o sistema internacional de unidades. (https://pt.wikipedia.org/wiki/Sistema_Internacional_de_Unidades)
